@@ -15,8 +15,8 @@ const navItems = [
 ]
 
 const socialLinks = [
-  { icon: LinkedInIcon, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: XIcon, href: 'https://x.com', label: 'X' },
+  { icon: LinkedInIcon, href: 'https://www.linkedin.com/in/kyle-cervantes?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
+  { icon: XIcon, href: '#', label: 'X' },
 ]
 
 export function Navbar({ activeSection, onNavigate }: NavbarProps) {
@@ -138,7 +138,7 @@ export function Navbar({ activeSection, onNavigate }: NavbarProps) {
                 </a>
               ))}
               <a
-                href="mailto:hello@example.com"
+                href="mailto:helloo@devworkstudios.net"
                 className="mobile-social-link"
                 aria-label="Email"
                 style={{ animationDelay: '0.35s' }}
